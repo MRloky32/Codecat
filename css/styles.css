@@ -1,0 +1,34 @@
+/* css/styles.css */
+
+/* Definición de Variables (Paleta de colores) */
+:root {
+    /* Fondo oscuro principal (tomado de la paleta) */
+    --bg-main: #141D40; 
+    /* Un tono más claro para tarjetas o secciones */
+    --bg-accent: #238A6F; /* Un verde vibrante de tu paleta */
+    /* El morado dinámico para botones y títulos */
+    --color-primary: #8F5FBB; 
+    /* Un rosa/fucsia para acentos o estados de hover */
+    --color-secondary: #A84379;
+    /* Texto principal (casi blanco) */
+    --text-main: #FFFFFF;
+    /* Texto secundario o suave */
+    --text-muted: #D5ADBC;
+}
+
+/* Estilos Básicos de Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Tipografía limpia */
+    background-color: var(--bg-main);
+    color: var(--text-main);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+}
